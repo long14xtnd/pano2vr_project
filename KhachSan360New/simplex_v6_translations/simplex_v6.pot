@@ -1,0 +1,80 @@
+#. Skin Element Text: 360image_text / Text
+msgid "Gyroscope"
+msgstr ""
+
+#. Skin Element Image: Image 2 / Alternate Text
+msgid "visit to company website"
+msgstr ""
+
+#. Skin Element Text: ht_tooltip / Text
+msgid "$hs"
+msgstr ""
+
+#. Skin Element: ht_url_image / Set Value Action (Target Element: web_page) / Text
+msgid "<iframe src=\"%1\" width=\"100%\" height=\"100%\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" frameborder= \"0\" ></iframe>"
+msgstr ""
+
+#. Skin Element Text: tt_fullscreen / Logic Block Text
+msgid "Exit Fullscreen"
+msgstr ""
+
+#. Skin Element Text: tt_fullscreen / Logic Block Text
+msgid "Enter Fullscreen"
+msgstr ""
+
+#. Skin Element Text: tt_gyro / Logic Block Text
+msgid "Gyroscope Off"
+msgstr ""
+
+#. Skin Element Text: tt_gyro / Logic Block Text
+msgid "Gyroscope On"
+msgstr ""
+
+#. Skin Element Text: tt_projection / Logic Block Text
+msgid "Change to Sterographic"
+msgstr ""
+
+#. Skin Element Text: tt_projection / Logic Block Text
+msgid "Change to Fisheye"
+msgstr ""
+
+#. Skin Element Text: tt_projection / Logic Block Text
+msgid "Change to Rectilinear"
+msgstr ""
+
+#. Skin Element Text: tt_rotate / Logic Block Text
+msgid "Stop Auto Rotate"
+msgstr ""
+
+#. Skin Element Text: tt_rotate / Logic Block Text
+msgid "Start Auto Rotate"
+msgstr ""
+
+#. Skin Element Text: tt_show_controller / Text
+msgid "Show Controller"
+msgstr ""
+
+#. Skin Element Text: tt_thumbnail_open / Logic Block Text
+msgid "Hide Thumbnail Menu"
+msgstr ""
+
+#. Skin Element Text: tt_thumbnail_open / Logic Block Text
+msgid "Show Thumbnail Menu"
+msgstr ""
+
+#. Skin Element Text: tt_userdata / Text
+msgid "Show User Data"
+msgstr ""
+
+#. Skin Element Text: tt_zoomin / Text
+msgid "Zoom In"
+msgstr ""
+
+#. Skin Element Text: tt_zoomout / Text
+msgid "Zoom Out"
+msgstr ""
+
+#. Skin Element Text: userdata_copyright / Text
+msgid "&#169; %1"
+msgstr ""
+
