@@ -177,27 +177,8 @@ Dự án khách sạn 360 là một bước tiến đáng kể trong ngành du l
         </hotspot>
         <hotspot>
           <position>
-            <pan>-352.77</pan>
-            <tilt>-6.13</tilt>
-          </position>
-          <next>
-            <pan>0</pan>
-            <tilt>0</tilt>
-            <fov>0</fov>
-          </next>
-          <polygon/>
-          <type>point</type>
-          <id>Point07</id>
-          <title>$(ut)</title>
-          <linktype>node</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>{node17}</url>
-          <autoplace>0</autoplace>
-        </hotspot>
-        <hotspot>
-          <position>
-            <pan>-60.18</pan>
-            <tilt>22.86</tilt>
+            <pan>-47.15</pan>
+            <tilt>13.9</tilt>
           </position>
           <next>
             <pan>0</pan>
@@ -210,7 +191,26 @@ Dự án khách sạn 360 là một bước tiến đáng kể trong ngành du l
           <title>$(ut)</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
-          <url>{node22}</url>
+          <url>{node27}</url>
+          <autoplace>0</autoplace>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-352.21</pan>
+            <tilt>-6.37</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point07</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node18}</url>
           <autoplace>0</autoplace>
         </hotspot>
       </hotspots>
@@ -641,7 +641,39 @@ Khu vực phòng khách căn 1 của dự án không chỉ là nơi để thư g
       <output/>
       <streetview/>
       <streetviewproject/>
-      <sounds/>
+      <sounds>
+        <sound>
+          <position>
+            <pan>-81.36</pan>
+            <tilt>-9.18</tilt>
+          </position>
+          <videorect>
+            <rotx>-10</rotx>
+            <roty>-6</roty>
+            <rotz>1</rotz>
+            <fov>30</fov>
+            <stretch>100</stretch>
+            <dimx>1280</dimx>
+            <dimy>720</dimy>
+          </videorect>
+          <type>video</type>
+          <id>Element01</id>
+          <filename>C:/Users/Admin/Desktop/x2mate.com-DAYDREAMS X LAST CHRISTMAS REMIX - KI AN x ORINN x GUANG.mp4</filename>
+          <mode>3</mode>
+          <nodechangekeep>0</nodechangekeep>
+          <locked>0</locked>
+          <pansize>10</pansize>
+          <tiltsize>10</tiltsize>
+          <fieldsize>90</fieldsize>
+          <ambientlevel>0</ambientlevel>
+          <startmutedmobile>0</startmutedmobile>
+          <level>1</level>
+          <loop>1</loop>
+          <copyfile>1</copyfile>
+          <clickmode>playstop</clickmode>
+          <handcursor>0</handcursor>
+        </sound>
+      </sounds>
       <animation>
         <sequence/>
       </animation>
@@ -1180,7 +1212,39 @@ Khu vực phòng khách căn 1 của dự án không chỉ là nơi để thư g
       <output/>
       <streetview/>
       <streetviewproject/>
-      <sounds/>
+      <sounds>
+        <sound>
+          <position>
+            <pan>-97.5</pan>
+            <tilt>-16.27</tilt>
+          </position>
+          <videorect>
+            <rotx>-15</rotx>
+            <roty>-9</roty>
+            <rotz>-2</rotz>
+            <fov>48.38</fov>
+            <stretch>122</stretch>
+            <dimx>1280</dimx>
+            <dimy>720</dimy>
+          </videorect>
+          <type>video</type>
+          <id>Element01</id>
+          <filename>C:/Users/Admin/Desktop/x2mate.com-DAYDREAMS X LAST CHRISTMAS REMIX - KI AN x ORINN x GUANG.mp4</filename>
+          <mode>3</mode>
+          <nodechangekeep>0</nodechangekeep>
+          <locked>0</locked>
+          <pansize>10</pansize>
+          <tiltsize>10</tiltsize>
+          <fieldsize>90</fieldsize>
+          <ambientlevel>0</ambientlevel>
+          <startmutedmobile>0</startmutedmobile>
+          <level>1</level>
+          <loop>1</loop>
+          <copyfile>1</copyfile>
+          <clickmode>playstop</clickmode>
+          <handcursor>0</handcursor>
+        </sound>
+      </sounds>
       <id>node6</id>
       <projectsettings>
         <userdata>
@@ -2519,7 +2583,39 @@ Khu vực phòng khách căn 1 của dự án không chỉ là nơi để thư g
       <output/>
       <streetview/>
       <streetviewproject/>
-      <sounds/>
+      <sounds>
+        <sound>
+          <position>
+            <pan>-275.91</pan>
+            <tilt>-4.53</tilt>
+          </position>
+          <videorect>
+            <rotx>-8</rotx>
+            <roty>-8</roty>
+            <rotz>0</rotz>
+            <fov>38</fov>
+            <stretch>106</stretch>
+            <dimx>1280</dimx>
+            <dimy>720</dimy>
+          </videorect>
+          <type>video</type>
+          <id>Element01</id>
+          <filename>C:/Users/Admin/Desktop/x2mate.com-DAYDREAMS X LAST CHRISTMAS REMIX - KI AN x ORINN x GUANG.mp4</filename>
+          <mode>3</mode>
+          <nodechangekeep>0</nodechangekeep>
+          <locked>0</locked>
+          <pansize>10</pansize>
+          <tiltsize>10</tiltsize>
+          <fieldsize>90</fieldsize>
+          <ambientlevel>0</ambientlevel>
+          <startmutedmobile>0</startmutedmobile>
+          <level>1</level>
+          <loop>1</loop>
+          <copyfile>1</copyfile>
+          <clickmode>playstop</clickmode>
+          <handcursor>0</handcursor>
+        </sound>
+      </sounds>
       <id>node18</id>
       <projectsettings>
         <userdata>
@@ -2901,6 +2997,25 @@ Khu vực view toàn cảnh ban đêm của dự án mang đến một trải ng
           <url>{node22}</url>
           <autoplace>0</autoplace>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>-42.13</pan>
+            <tilt>16.14</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point03</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node29}</url>
+          <autoplace>0</autoplace>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -2989,6 +3104,25 @@ Khu vực view sảnh ban đêm của dự án mang đến sự lịch sự và 
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node27}</url>
+          <autoplace>0</autoplace>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-320.15</pan>
+            <tilt>18.94</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node26}</url>
           <autoplace>0</autoplace>
         </hotspot>
       </hotspots>
@@ -3081,6 +3215,25 @@ Khu vực view bể bơi ban đêm của dự án tạo ra một trải nghiệm
           <url>{node27}</url>
           <autoplace>0</autoplace>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>-52.42</pan>
+            <tilt>20.17</tilt>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node23}</url>
+          <autoplace>0</autoplace>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -3143,7 +3296,7 @@ Khu vực view bể bơi ban đêm của dự án tạo ra một trải nghiệm
         </hotspotstyle>
         <tilesize>1500</tilesize>
         <filename>../test pano2vr/KhachSan360New/pano.xml</filename>
-        <skinfile>silhouette_v6.ggsk</skinfile>
+        <skinfile>$d/silhouette_v6.ggsk</skinfile>
         <webvr/>
         <skinconfiguration>
           <value id="opt_gyro">false</value>

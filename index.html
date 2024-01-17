@@ -11,6 +11,18 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <meta name="mobile-web-app-capable" content="yes" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <style type="text/css" title="Default">
       body,
       div,
@@ -45,249 +57,6 @@
       ::-webkit-scrollbar-thumb {
         background-color: rgba(255, 255, 255, 0.5);
       }
-      /* widget weather  */
-
-      #openweathermap-widget {
-        position: fixed;
-        right: 20px;
-        top: 18px;
-      }
-      .weather-right--type1:first-of-type {
-        width: 230px;
-      }
-      .widget-right--brown {
-        /* background-image: linear-gradient(to bottom,#feb020,#ffd05c); */
-      }
-      .widget-right {
-        position: relative;
-        width: 230px;
-        border-radius: 6px;
-        box-shadow: 10px -2px 20px 2px rgba(0, 0, 0, 0.3);
-      }
-      .widget-right__header--brown {
-        /* background-image: linear-gradient(to top left,#feb020,#ffd05c); */
-        color: white;
-      }
-      .widget-right__header {
-        position: relative;
-        border-radius: 6px 6px 0 0;
-        width: inherit;
-      }
-      .weather-right--brown {
-        /* background-color: #fff; */
-      }
-      .weather-right {
-        position: relative;
-      }
-      .widget-right__footer {
-        border-radius: 0 0 6px 6px;
-      }
-      .widget-right__header .widget-right__layout {
-        margin-left: 10px;
-      }
-      .widget-right__layout {
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-flex-direction: row;
-        -ms-flex-direction: row;
-        flex-direction: row;
-        -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
-        -webkit-align-items: center;
-        -ms-flex-align: center;
-        align-items: center;
-        height: initial;
-        min-height: 60px;
-      }
-      .weather-right__icon--type1 {
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-      .weather-right__icon {
-        position: absolute;
-        display: block;
-        left: 66%;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-        border-radius: 4px;
-        width: 32%;
-      }
-      .widget-right__header--brown .widget-right__title {
-        color: white;
-      }
-      .widget-right__title {
-        max-width: 160px;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 1;
-        font-family: "Roboto", Arial, sans-serif !important;
-        margin: 0;
-        letter-spacing: 1px;
-      }
-      .widget-right__footer--brown .widget-right__date,
-      .widget-right__header--brown .widget-right__description {
-        color: white;
-      }
-      .widget-right__header .widget-right__description {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1;
-        font-family: "Roboto", Arial, sans-serif !important;
-        margin: 0;
-      }
-      .weather-right__layout {
-        position: relative;
-        padding: 6.5px 0;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-flex-direction: row;
-        -ms-flex-direction: row;
-        flex-direction: row;
-        -webkit-align-items: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-justify-content: space-around;
-        -ms-flex-pack: distribute;
-        justify-content: space-around;
-      }
-      .weather-right--type1 .weather-right__temperature {
-        text-align: center;
-      }
-      .weather-right__temperature {
-        font-weight: 600;
-        font-size: 40px;
-        line-height: 1;
-        /* font-family: "Oswald", Arial, sans-serif !important; */
-        color: white;
-        width: auto;
-        letter-spacing: -5px;
-      }
-      .weather-right-card {
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 1.3;
-        font-family: "Oswald", Arial, sans-serif !important;
-        color: white;
-      }
-      .weather-right__table {
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 1;
-        font-family: "Roboto", Arial, sans-serif !important;
-        color: white;
-        text-align: left;
-        border-collapse: collapse;
-        border-spacing: 0;
-      }
-      .weather-right__items:first-child th {
-        border-bottom: 1px solid #7adddd;
-        padding-bottom: 5px;
-      }
-      .weather-right__item:last-child {
-        font-weight: 600;
-      }
-      .weather-right__item:first-child {
-        padding-right: 19px;
-        /* min-width: 50px; */
-      }
-      .weather-right__item {
-        padding: 2px 0;
-      }
-      .widget-right__footer .widget-right__layout {
-        padding: 0 10px;
-        -webkit-align-items: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
-        min-height: 25px;
-      }
-      .widget-right__body,
-      .widget-right__footer .widget-right__layout {
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-flex-direction: row;
-        -ms-flex-direction: row;
-        flex-direction: row;
-        -webkit-align-items: stretch;
-        -ms-flex-align: stretch;
-        align-items: stretch;
-      }
-      .widget-right__logo_black_small {
-        width: 55px;
-        height: 24px;
-        background: url(https://vr360.com.vn/images/logo.svg) 50% 50% no-repeat;
-        background-size: 55px 24px;
-        margin: 1px;
-      }
-      .widget-right__footer--brown .widget-right__date,
-      .widget-right__header--brown .widget-right__description {
-        color: white;
-      }
-      .widget-right__date {
-        font-weight: 400;
-        font-size: 10px;
-        line-height: 1;
-        font-family: "Roboto", Arial, sans-serif !important;
-        color: #fff;
-        display: flex;
-        align-items: center;
-      }
-
-      @media screen and (max-width: 960px) and (min-width: 500px) {
-        #openweathermap-widget {
-          transform: scale(0.8);
-          right: 50px;
-          top: 80px;
-        }
-        .widget-right__header {
-          display: none !important;
-        }
-      }
-
-      @media screen and (max-width: 500px) {
-        #openweathermap-widget {
-          left: 50%;
-          transform: translate(-50%, 0);
-          right: auto;
-          top: 100px;
-        }
-        .widget-right__header {
-          display: none !important;
-        }
-        .weather-right__table tbody {
-          display: flex;
-        }
-        .weather-right__table tbody tr {
-          display: flex;
-          margin-right: 7px;
-        }
-        .weather-right__item:first-child {
-          padding-right: 19px;
-          display: none;
-          /* min-width: 50px; */
-        }
-        .weather-right__temperature {
-          font-size: 17px;
-          letter-spacing: 0px;
-        }
-        .weather-right--type1:first-of-type {
-          width: 200px;
-        }
-        .weather-right__table {
-          font-size: 11px;
-        }
-      }
-      /* end widget weather  */
     </style>
   </head>
   <body>
@@ -314,103 +83,58 @@
     <!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - -->
     <!-- Hack needed to hide the url bar on iOS 9, iPhone 5s -->
     <div style="width: 1px; height: 1px"></div>
-    <div id="openweathermap-widget">
-      <div id="container-openweathermap-widget">
-        <div class="widget-right weather-right--type1 widget-right--brown">
-          <div class="widget-right__header widget-right__header--brown">
-            <div class="widget-right__layout">
-              <div>
-                <h2 class="widget-right__title">Bến Tre</h2>
-                <p class="widget-right__description">mây đen u ám</p>
-              </div>
-            </div>
-            <img
-              src="//openweathermap.org/img/wn/04d@2x.png"
-              width="80"
-              alt="Thời tiết tại Tinh Ben Tre"
-              class="weather-right__icon weather-right__icon--type1"
-            />
+    <!-- Modal  -->
+    <!-- Button trigger modal -->
+    <button
+      type="button"
+      class="btn btn-primary"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+    >
+      Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
           </div>
-          <div class="weather-right weather-right--brown">
-            <div class="weather-right__layout">
-              <div class="weather-right__temperature">31<span>°C</span></div>
-              <div class="weather-right__weather">
-                <div class="weather-right-card">
-                  <table class="weather-right__table">
-                    <tbody>
-                      <tr class="weather-right__items">
-                        <td class="weather-right__item">Gió</td>
-                        <td
-                          class="weather-right__item weather-right__wind-speed"
-                        >
-                          3.61 m/s
-                        </td>
-                      </tr>
-                      <tr class="weather-right-card__items">
-                        <td class="weather-right__item">Độ ẩm</td>
-                        <td class="weather-right__item weather-right__humidity">
-                          56%
-                        </td>
-                      </tr>
-                      <tr class="weather-right-card__items">
-                        <td class="weather-right__item">Áp suất</td>
-                        <td class="weather-right__item weather-right__pressure">
-                          1012 hPa
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
+          <div class="modal-body">
+			<iframe src="http://127.0.0.1:5500/dearflip-jquery-flipbook/examples/basic-example.html" title="Readfile pdf online" width="100%" height="700px"></iframe>
+		  </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
           </div>
         </div>
       </div>
     </div>
-
+    <!-- end modal  -->
     <script>
-      let weather = {
-        apiKey: "062d92a2646152d39eb7845a608226cb", // Nhập key lấy từ openweathermap.org
-        fetchWeather: function (city) {
-          fetch(
-            "https://api.openweathermap.org/data/2.5/weather?q=" +
-              city +
-              "&lang=vi&units=metric&appid=" +
-              this.apiKey
-          )
-            .then((response) => {
-              if (!response.ok) {
-                throw new Error("Không có địa điểm");
-              }
-              return response.json();
-            })
-            .then((data) => this.displayWeather(data));
-        },
-        displayWeather: function (data) {
-          const { name } = data;
-          const { icon, description } = data.weather[0];
-          const { temp, humidity, grnd_level } = data.main;
-          const { speed } = data.wind;
-          const { country } = data.sys;
-
-          document.querySelector(".widget-right__title").innerText = name;
-          document.querySelector(".weather-right__temperature").innerText =
-            temp + "°C";
-          document.querySelector(".widget-right__description").innerText =
-            description;
-          document.querySelector(".weather-right__wind-speed").innerText =
-            speed + " km/h";
-          document.querySelector(".weather-right__humidity").innerText =
-            humidity + "%";
-          document.querySelector(".weather-right__pressure").innerText =
-            grnd_level + " hPa";
-        },
-        search: function () {
-          this.fetchWeather(document.querySelector(".search-bar").value);
-        },
-      };
-
-      weather.fetchWeather("ha noi");
+      function openFile(info) {
+        // alert(info);
+        $("#exampleModal").modal("show");
+      }
     </script>
   </body>
 </html>
