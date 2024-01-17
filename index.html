@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
-    <meta
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+		<title></title>
+		<meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"
     />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <link
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="mobile-web-app-capable" content="yes" />
+<link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
@@ -23,67 +23,67 @@
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-    <style type="text/css" title="Default">
-      body,
+		<style type="text/css" title="Default">
+			body,
       div,
       h1,
       h2,
       h3,
       span,
       p {
-        font-family: Verdana, Arial, Helvetica, sans-serif;
-      }
-      /* fullscreen */
-      html {
-        height: 100%;
-      }
-      body {
-        height: 100%;
-        margin: 0px;
-        overflow: hidden; /* disable scrollbars */
-        font-size: 10pt;
-        -webkit-tap-highlight-color: rgba(
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+			}
+			/* fullscreen */
+			html {
+				height: 100%;
+			}
+			body {
+				height: 100%;
+				margin: 0px;
+				overflow: hidden; /* disable scrollbars */
+				font-size: 10pt;
+				-webkit-tap-highlight-color: rgba(
           0,
           0,
           0,
           0
         ); /* remove highlight on tab for iOS/Android */
-      }
-      /* fix for scroll bars on webkit & >=Mac OS X Lion */
-      ::-webkit-scrollbar {
-        background-color: rgba(0, 0, 0, 0.5);
-        width: 0.75em;
-      }
-      ::-webkit-scrollbar-thumb {
-        background-color: rgba(255, 255, 255, 0.5);
-      }
-    </style>
-  </head>
-  <body>
-    <!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - -->
-    <script type="text/javascript" src="pano2vr_player.js"></script>
-    <script type="text/javascript" src="skin.js"></script>
-    <div id="container" style="width: 100%; height: 100%; overflow: hidden">
-      <br />Loading...<br /><br />
-    </div>
-    <script type="text/javascript">
-      // create the panorama player with the container
-      pano = new pano2vrPlayer("container");
-      // add the skin object
-      skin = new pano2vrSkin(pano);
-      // load the configuration
-
-      window.addEventListener("load", function () {
-        pano.readConfigUrlAsync("pano.xml");
-      });
-    </script>
-    <noscript>
-      <p><b>Please enable Javascript!</b></p>
-    </noscript>
-    <!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - -->
-    <!-- Hack needed to hide the url bar on iOS 9, iPhone 5s -->
-    <div style="width: 1px; height: 1px"></div>
-    <!-- Modal  -->
+			}
+			/* fix for scroll bars on webkit & >=Mac OS X Lion */ 
+			::-webkit-scrollbar {
+				background-color: rgba(0, 0, 0, 0.5);
+				width: 0.75em;
+			}
+			::-webkit-scrollbar-thumb {
+    			background-color: rgba(255, 255, 255, 0.5);
+			}
+		</style>	
+	</head>
+	<body>
+<!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - -->
+		<script type="text/javascript" src="pano2vr_player.js"></script>
+		<script type="text/javascript" src="skin.js"></script>
+		<div id="container" style="width: 100%; height: 100%; overflow: hidden">
+		<br />Loading...<br /><br />
+		</div>
+		<script type="text/javascript">
+				// create the panorama player with the container
+			pano = new pano2vrPlayer("container");
+			// add the skin object
+			skin = new pano2vrSkin(pano);
+			// load the configuration
+		
+			window.addEventListener("load", function () {
+				pano.readConfigUrlAsync("pano.xml");
+			});
+		</script>
+		<noscript>
+			<p><b>Please enable Javascript!</b></p>
+		</noscript>
+<!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - --> 
+		<!-- Hack needed to hide the url bar on iOS 9, iPhone 5s --> 
+		<div style="width: 1px; height: 1px"></div>
+<!-- Modal  -->
     <!-- Button trigger modal -->
     <button
       type="button"
@@ -114,7 +114,7 @@
             ></button>
           </div>
           <div class="modal-body">
-			<iframe src="http://127.0.0.1:5500/dearflip-jquery-flipbook/examples/basic-example.html" title="Readfile pdf online" width="100%" height="700px"></iframe>
+			<iframe src="http://localhost/pano2vr_project/dearflip-jquery-flipbook/examples/basic-example.html" title="Readfile pdf online" width="100%" height="700px"></iframe>
 		  </div>
           <div class="modal-footer">
             <button
@@ -136,5 +136,5 @@
         $("#exampleModal").modal("show");
       }
     </script>
-  </body>
+	</body>
 </html>
